@@ -23,4 +23,5 @@ public class CameraController : MonoBehaviour
         Vector3 moveDir = (randomPos - cameraHelper.GetCameraPos()).normalized;
         cameraHelper.Move(moveDir * moveSpeed * Time.deltaTime);
     }
+    //testовый комментарий
 }
